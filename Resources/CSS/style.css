@@ -1,0 +1,46 @@
+/* Universal Styles */
+
+body {
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+  align-content: center;
+}
+
+/* Header */
+
+header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  position: fixed;
+  border-bottom: 1px solid seashell;
+  height: 69px;
+  width: 100%;
+}
+
+nav {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  text-align: right;
+  justify-content: flex-end;
+  flex-grow: 1;
+}
+
+nav a {
+  color: seashell;
+  font-size: 22px;
+  opacity: .9;
+  padding: 20px 10px;
+}
+
+.top-left-logo {
+  padding-left: 10px;
+  display: flex;
+  align-items: center;
+  height: 50px;
+  flex-grow: 1;
+}
