@@ -7,6 +7,8 @@ body {
   background-color: black;
   opacity: 0.9;
   align-content: center;
+  display: flex;
+  flex-direction: column;
 }
 
 /* Header */
@@ -43,4 +45,32 @@ nav a {
   align-items: center;
   height: 50px;
   flex-grow: 1;
+}
+
+/* Our Mission */
+
+.Our-Mission {
+  display: flex;
+  height: 700px;
+  background-image:
+    url("../Images/img-mission-background.jpg");
+  width: 1200px;
+
+}
+
+.mission-banner {
+  z-index: 1;
+  background: black;
+  width: 100%
+
+}
+
+/* Footer */
+
+footer h5 {
+  text-align: left;
+  margin: 1.67em 0;
+  padding-left: 20px;
+  display: block;
+  align-self: flex-end;
 }
